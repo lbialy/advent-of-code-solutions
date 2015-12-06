@@ -7,8 +7,9 @@ object Main extends App {
   val day3 = Task3a :: Task3b :: Nil
   val day4 = Task4a :: Task4b :: Nil
   val day5 = Task5a :: Task5b :: Nil
+  val day6 = Task6a :: Task6b :: Nil
 
-  val allTasks = day1 ++ day2 ++ day3 ++ day4 ++ day5
+  val allTasks = day1 ++ day2 ++ day3 ++ day4 ++ day5 ++ day6
 
   allTasks.map { task =>
     val start = System.currentTimeMillis().toDouble
