@@ -5,8 +5,9 @@ object Main extends App {
   val day1 = Task1a :: Task1b :: Nil
   val day2 = Task2a :: Task2b :: Nil
   val day3 = Task3a :: Task3b :: Nil
+  val day4 = Task4a :: Task4b :: Nil
 
-  val allTasks = day1 ++ day2 ++ day3
+  val allTasks = day1 ++ day2 ++ day3 ++ day4
 
   allTasks.map { task =>
     (task.getClass.getName, task.result)
